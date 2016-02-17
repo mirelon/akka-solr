@@ -22,7 +22,7 @@ sbt:
 
 ```scala
 libraryDependencies ++= Seq(
-    "com.codemettle.akka-solr" %% "akka-solr" % "3.0.0",
+    "com.codemettle.akka-solr" %% "akka-solr" % "2.0.0",
     "org.apache.solr" % "solr-solrj" % "5.1.0" // later versions should work but are untested
 )
 ```
@@ -33,7 +33,7 @@ Maven:
 <dependency>
     <groupId>com.codemettle.akka-solr</groupId>
     <artifactId>akka-solr</artifactId>
-    <version>3.0.0</version>
+    <version>2.0.0</version>
 </dependency>
 <dependency>
     <groupId>org.apache.solr</groupId>
